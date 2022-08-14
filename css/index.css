@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.nav-items{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    /* display: inline-block; */
+    text-align: right;
+}
+.nav-items h5{
+    font-size: 18px;
+}
+.active-item{
+    color: orangered;
+font-weight: bolder;
+}
+
+.intro-section{
+    display: flex;
+}
+.right-section img:last-child{
+    width: 400px;
+    margin-top: 0PX;
+}
+.left-section{
+    width: 70%;
+}
+
+.right-section{
+    width: 30%;
+   
+}
+.headphone-div{
+    display: flex;
+    position: relative;
+    margin: 0;
+}
+
+.right-section img:first-child{
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    bottom: 14px;
+}
+.discount-content h1, .discount-content h4{
+    position: absolute;
+    z-index: 1;
+    color:red;
+}
+.intro-section h1 {
+    font-size: 2rem !important;
+    bottom: 50px;
+    left: 25px;
+    color: #fff;
+}
+.intro-section h4{
+bottom: 100px;
+left:30px;
+color: #fff;
+font-weight: bold;
+font-size: 1.2rem;
+}
+div.left-section{
+position: relative;
+}
+div.left-section h3{
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+div.left-section h3 img{
+    position: absolute;
+    width: 35px;
+    left: 220px;
+    top: 105px;
+    font-weight: bold;
+}
+.sub-headlines{
+   margin:10px 50px;
+}
+.sub-headlines h5{
+    padding-top: 10px;
+}
+.sub-headlines h5 img{
+    background-color: orangered;
+    width:20px;
+    border-radius: 50%;
+    margin-right: 25px;
+  
+}
+
+h5.sub-headline{
+    font-size: 16px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    padding-right: 25px;
+}
+
+.intro-section h1{
+    font-size: 4.2rem;
+    font-weight: bolder;
+    margin: 10px 5px 10px 15px;
+}
+p.text{
+    margin-top: 20px;
+    color: grey;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.action-btns{
+    /* display: flex; */
+    margin-top: 63px;
+    display:flex    ;
+    padding:0 50px 0 20px;
+    width: 50%;
+
+}
+.action-btns button,.action-btn{
+    padding:20px;
+    margin-right: 30px;
+    margin-top: 40px;
+    border: none;
+    background-color: orangered;
+    font-weight: bold;
+    color: #fff;
+    width: 180px;
+    border-radius: 28px;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right:10px;
+}
+.yellow-dot{
+    background-color: yellow;
+  
+}
+.tomato-dot{
+    background-color: tomato;
+}
+.black-dot{
+    background-color: black;
+}
+
+
