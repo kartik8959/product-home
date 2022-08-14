@@ -26,8 +26,12 @@
 ## 📌 What I Learnt
 
 👉 Learnt about FlexBox.  
-👉 How to place images used chrome web tools.
-👉 Learned Positions property.
+
+👉 Positioned images using chrome web tools
+
+👉 Learnt Positions property.
+
+👉 Achieved some responsiveness using FlexBox.
 
 
 ## 📌 Acknowledgments
